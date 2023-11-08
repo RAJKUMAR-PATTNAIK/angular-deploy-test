@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "my-build-testing"
+  },
+  "targets": {
+    "my-build-testing": {
+      "hosting": {
+        "my-deploy-app": [
+          "my-build-testing"
+        ]
+      }
+    }
+  }
+}
